@@ -172,17 +172,17 @@ public class Blackjack extends Application {
                 System.out.println("Karty krupiera: " + dealer);
 
                 if (playerTotal == 21) {
-                    System.out.println("Wygra³e¶");
-                    status.setText("Wygra³e¶");
+                    System.out.println("Wygrałeś");
+                    status.setText("Wygrałeś");
                 } else if (dealerTotal <= 21 && playerTotal == dealerTotal) {
                     System.out.println("Remis");
                     status.setText("Remis");
                 } else if (dealerTotal <= 21 && playerTotal <= dealerTotal) {
-                    System.out.println("Przegra³e¶");
-                    status.setText("Przegra³e¶");
+                    System.out.println("Przegrałeś");
+                    status.setText("Przegrałeś");
                 } else {
-                    System.out.println("Wygra³e¶");
-                    status.setText("Wygra³e¶");
+                    System.out.println("Wygrałeś");
+                    status.setText("Wygrałeś");
                 }
             }
         });
